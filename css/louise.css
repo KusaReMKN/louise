@@ -1,0 +1,33 @@
+* {
+	box-sizing: border-box;
+}
+body {
+	width: 95%;
+	max-width: 800px;
+	margin: 1rem auto;
+	font-family: 'Noto sans', 'Noto Sans JP', sans-serif;
+}
+input {
+	font: inherit;
+}
+textarea {
+	display: block;
+	width: 100%;
+	min-height: 10rem;
+	padding: .5rem;
+	resize: vertical;
+	font: inherit;
+}
+button {
+	display: block;
+	width: 100%;
+	text-align: center;
+	font-size: x-large;
+	line-height: 2em;
+}
+.next {
+	margin: 1rem auto 1rem;
+	display: block;
+	height: 3rem;
+	background: no-repeat center/contain url('../img/darrow.svg');
+}
